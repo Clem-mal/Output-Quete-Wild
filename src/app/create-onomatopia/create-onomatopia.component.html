@@ -1,0 +1,9 @@
+<!-- <button ([(ngModel)]="sendOnomatope()">Get Onomatopé !</button> -->
+
+<label for="name">Ecrivez votre onomatopé:</label>
+
+<input [(ngModel)]="newOnomatopia" type="text" id="name" name="name">
+<br>
+<input type="button" value="Ajouter un Onomatopé" (click)="createOnomatopia()">
+
+
